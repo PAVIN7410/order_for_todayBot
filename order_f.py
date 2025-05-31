@@ -4,7 +4,7 @@ from telebot.types import ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardMar
 import os
 
 
-bot = telebot.TeleBot("7923197797:AAG9WE6_Id7_yYVBuoas3geHhZcNxOA7jks")  # Создаем экземпляр бота, передавая токен
+bot = telebot.TeleBot("BOT_TOKEN")  # Создаем экземпляр бота, передавая токен
 
 restaurants = [
     {"name": "Ресторан №1", "logo": "https://static.tildacdn.com/tild3937-6436-4532-b065-313439633661/E9heAba_vzEory05dBFc.jpg"},
